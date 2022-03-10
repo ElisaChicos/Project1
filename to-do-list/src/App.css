@@ -1,0 +1,75 @@
+.Titlu {
+  padding-left: 205px;
+  padding-top: 30px;
+  font-size:xx-large;
+  letter-spacing: .1rem;
+  font-family: serif;
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.InputBox{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size:smaller;
+  padding: 1rem 1.5rem;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  width: 35%;
+  display: block;
+  margin-left: 200px;
+  border-radius: 10px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container{
+  position:relative;
+    padding:0;
+    margin:0;
+}
+.Img{
+  /* position:absolute; */
+    bottom:8px;
+    left:10px;
+}
+
+.pokemonBox{
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  /* margin-top: 20px; */
+  margin: 50px;
+  padding-right: 20px;
+  background-color: #333;
+  display: block;
+}
+
+.block-display{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  align-content: center;
+  justify-content: center;
+}
+
+.name{
+  font-family: serif;
+  color:white;
+  font-size: x-large;
+  margin-top: 25px;
+  margin-left: 25px;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+.number{
+  font-family: serif;
+  color:white;
+  font-size: x-large;
+  text-align: right;
+  margin-top: 25px;
+  margin-left: 50px;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
