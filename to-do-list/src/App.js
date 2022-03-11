@@ -74,7 +74,7 @@ function App() {
             if( val.id == 7 || val.id == 8 || val.id == 9)
             {
               return <div className='block-display'>
-                    <p className="pokemonBox" style={{backgroundColor:'rgb(90,172,228)'}}>{block(val.name,val.id,val.types[0].type.name,val.types[0].type.name,val.sprites.other.official_artwork.front_default) }</p>
+                    <p className="pokemonBox" style={{backgroundColor:'rgb(90,172,228)'}}>{block(val.name,val.id,val.types[0].type.name,"",val.sprites.other.official_artwork.front_default) }</p>
                     </div>
             }
             else
