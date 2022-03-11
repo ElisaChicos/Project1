@@ -16,23 +16,14 @@
   border: 0;
   width: 35%;
   display: block;
-  margin-left: 200px;
+   margin-left: 200px;
   border-radius: 10px;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.container{
-  position:relative;
-    padding:0;
-    margin:0;
-}
-.Img{
-  /* position:absolute; */
-    bottom:8px;
-    left:10px;
-}
+
 
 .pokemonBox{
   width: 250px;
@@ -57,13 +48,14 @@
   margin-bottom: 10px;
   border-radius: 10px;
   font-family: serif;
+  text-decoration: none;
+  
 }
 .blocks2:not(:empty){
   padding: 0.5em 1.5em;
   width: 20%;
   background-color: rgba(133, 35, 108, 0.9);
   color:white;
-  text-align: center;
   font-size: large;
   border: 0;
   display: block;
@@ -82,15 +74,18 @@
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-align: left;
 }
 
 
 .block-display{
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
   flex-direction:row;
   align-content: center;
   justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .name{
